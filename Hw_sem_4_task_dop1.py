@@ -27,8 +27,8 @@ if decimal_input < 0:
     print("Число должно быть неотрицательным.")
 
 else:
-    binary_output = converter(decimal_input, 2)
+    binary_output: str = converter(decimal_input, 2)
     print(f"В двоичной системе: {binary_output}")
 
-    octal_output = converter(decimal_input, 8)
+    octal_output: str = converter(decimal_input, 8)
     print(f"В восьмеричной системе: {octal_output}")
